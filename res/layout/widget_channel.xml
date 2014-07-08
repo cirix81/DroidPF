@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+    <Button
+        android:id="@+id/TitleChannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/btn_channel"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/channel"
+        android:textColor="#ffffff" />
+
+    <ViewAnimator
+        android:id="@+id/animator"
+        android:layout_below="@id/TitleChannel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+		<include layout="@layout/widget_four_button"/>       	
+       	<com.designame.android.widget.joystick.JoystickView
+	       android:id="@+id/joystickView1"
+	       android:layout_width="match_parent"
+           android:layout_height="match_parent" 
+           android:layout_gravity="center"/>
+       	<include layout="@layout/widget_settings"/>
+       	
+     </ViewAnimator>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">DroidPF</string>
+    <string name="title_activity_ir_lego">DroidPFActivity</string>
+    <string name="title_activity_teste_joystick2">TesteJoystickActivity</string>
+    <string name="channel2">Channel 2</string>
+    <string name="channel1">Channel 1</string>
+    <string name="channel">Channel</string>
+    <string name="invertRed">Invert Red</string>
+    <string name="invertBlue">Invert Blue</string>
+    <string name="profile">Profile</string>
+    <string name="control">Control</string>
+
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="ip">IP</string>
+    
+    <string name="close_description">close Ip Label</string>
+
+    <string-array name="controlItem">
+        <item>Four Button</item>
+        <item>Joystick</item>
+    </string-array>
+    
+    
+    
+    <string-array name="channelItem">
+        <item>Channel 1</item>
+        <item>Channel 2</item>
+        <item>Channel 3</item>
+        <item>Channel 4</item>
+    </string-array>
+        <string name="version">0.2b</string>
+        <string name="invertAxis">Invert Axis</string>
+
+</resources>

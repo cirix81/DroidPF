@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <TableLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:pf="http://schemas.android.com/apk/res/com.designame.droidpf"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical">
+
+      
+		<TableRow 
+		    android:orientation="horizontal"
+		    android:layout_weight="1">
+			<com.designame.droidpf.widget.DroidPFChannelView
+	       	    android:id="@+id/channelView1"
+	       	    android:layout_width="0dp"
+	       	    android:layout_height="match_parent"
+	       	    android:layout_weight="1"
+	       	    pf:channel="1" >
+	       	    
+	       	</com.designame.droidpf.widget.DroidPFChannelView>
+	
+	       	<com.designame.droidpf.widget.DroidPFChannelView
+	       	    android:id="@+id/channelView2"
+	       	    android:layout_width="0dp"
+	       	    android:layout_height="match_parent"
+	       	    android:layout_weight="1"
+	       	    pf:channel="2" >
+       	    </com.designame.droidpf.widget.DroidPFChannelView>    
+		</TableRow>
+       	
+       	    <TableRow 
+		    android:orientation="horizontal"
+		    android:layout_weight="1">
+	       	<com.designame.droidpf.widget.DroidPFChannelView
+       	    android:id="@+id/channelView3"
+       	    android:layout_width="0dp"
+       	    android:layout_height="match_parent"
+       	    android:layout_weight="1"
+       	    pf:channel="3">
+       	    
+       	</com.designame.droidpf.widget.DroidPFChannelView>
+
+       	<com.designame.droidpf.widget.DroidPFChannelView
+       	    android:id="@+id/channelView4"
+       	    android:layout_width="0dp"
+       	    android:layout_height="match_parent"
+       	    android:layout_weight="1"
+       	    pf:channel="4" >
+       	    
+       	</com.designame.droidpf.widget.DroidPFChannelView>
+	       	</TableRow>
+       	
+	</TableLayout>
+
+       
+
+       
+   
+
+       
+       
+       

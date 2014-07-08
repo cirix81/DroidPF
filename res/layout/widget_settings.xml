@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewChannel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:text="@string/channel" />
+
+        <Spinner
+            android:id="@+id/channelSpinner"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/control" />
+
+        <Spinner
+            android:id="@+id/controlSpinner"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invertRed" />
+
+
+        <ToggleButton
+            android:id="@+id/invertRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_toggle_reverse"
+            android:minHeight="26dip"
+            android:minWidth="73dip"
+            android:textOff=" "
+            android:textOn=" " />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        
+        <TextView
+            android:id="@+id/textViewBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="26dip"
+            android:text="@string/invertBlue" />
+
+        <ToggleButton
+            android:id="@+id/invertBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_toggle_reverse"
+            android:minHeight="26dip"
+            android:minWidth="73dip"
+            android:textOff=" "
+            android:textOn=" " />
+        
+        
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewAxis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invertAxis" />
+		<ToggleButton
+            android:id="@+id/invertAxis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_toggle_joystick"
+            android:minHeight="26dip"
+            android:minWidth="73dip"
+            android:textOff=" "
+            android:textOn=" " />
+        
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

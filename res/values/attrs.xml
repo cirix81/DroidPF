@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Channel">
+		<attr name="channel" format="integer"/>
+		<attr name="red" format="boolean"/>
+		<attr name="action" format="string"/>
+	</declare-styleable>
+	
+</resources>

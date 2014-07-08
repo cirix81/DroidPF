@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pf="http://schemas.android.com/apk/res/com.designame.droidpf"
+    android:layout_width="match_parent"
+        android:layout_height="match_parent">
+             
+       <TableRow
+           android:id="@+id/tableRow1"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_marginTop="3dp"
+           android:layout_weight="1" >
+
+           <com.designame.droidpf.widget.DroidPFImageButton
+               android:id="@+id/RUp"
+               android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_marginBottom="4dp"
+              android:layout_marginLeft="4dp"
+              android:layout_weight="1"
+              android:background="@drawable/btn_red"
+              android:src="@drawable/ic_up"
+              pf:red="true"
+              pf:action="forward"/>
+
+           <com.designame.droidpf.widget.DroidPFImageButton
+               android:id="@+id/BUp"
+               android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_marginBottom="4dp"
+              android:layout_marginLeft="4dp"
+              android:layout_weight="1"
+              android:background="@drawable/btn_blue"
+              android:src="@drawable/ic_up"
+              pf:red="false"
+              pf:action="forward" />
+       </TableRow>
+
+       <TableRow
+           android:id="@+id/tableRow2"
+           android:layout_width="wrap_content"
+           android:layout_height="0dp"
+           android:layout_weight="1" >
+
+           <com.designame.droidpf.widget.DroidPFImageButton
+               android:id="@+id/RDown"
+               android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_marginBottom="4dp"
+              android:layout_marginLeft="4dp"
+              android:layout_weight="1"
+              android:background="@drawable/btn_red"
+              android:src="@drawable/ic_down"
+              pf:red="true"
+              pf:action="backward" />
+
+           <com.designame.droidpf.widget.DroidPFImageButton
+               android:id="@+id/BDown"
+               android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_marginBottom="4dp"
+              android:layout_marginLeft="4dp"
+              android:layout_weight="1"
+              android:background="@drawable/btn_blue"
+              android:src="@drawable/ic_down"
+              pf:red="false"
+              pf:action="backward" />
+       </TableRow>
+
+ </TableLayout>

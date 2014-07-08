@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:pf="http://schemas.android.com/apk/res/com.designame.droidpf"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="horizontal">
+			<com.designame.droidpf.widget.DroidPFChannelView
+	       	    android:id="@+id/channelView1"
+	       	    android:layout_width="0dp"
+	       	    android:layout_height="match_parent"
+	       	    android:layout_weight="1"
+	       	    pf:channel="1" />
+	       	<com.designame.droidpf.widget.DroidPFChannelView
+	       	    android:id="@+id/channelView2"
+	       	    android:layout_width="0dp"
+	       	    android:layout_height="match_parent"
+	       	    android:layout_weight="1"
+	       	    pf:channel="2" />
+	</LinearLayout>
+
+       
+
+       
+   
+
+       
+       
+       
